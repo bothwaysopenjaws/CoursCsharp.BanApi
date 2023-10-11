@@ -57,7 +57,7 @@ namespace CoursCsharp.BanApi.Api.Model
         {
             return "N° : " + this.Properties.HouseNumber + Environment.NewLine +
                 "Nom : " + this.Properties.Name + Environment.NewLine +
-                "CP : " + this.Properties.Postcode + Environment.NewLine +
+                "CP : " + this.Properties.PostCode + Environment.NewLine +
                 "Ville : " + this.Properties.City + Environment.NewLine +
                 "Rue : " + this.Properties.Street + Environment.NewLine +
                 "Type : " + this.Properties.Type + Environment.NewLine;

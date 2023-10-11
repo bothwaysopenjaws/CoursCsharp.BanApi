@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoursCsharp.BanApi.Api", "CoursCsharp.BanApi.Api\CoursCsharp.BanApi.Api.csproj", "{E2DE6310-6EDE-42FC-AE92-FA848E1FC5BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoursCsharp.BanApi.Api", "CoursCsharp.BanApi.Api\CoursCsharp.BanApi.Api.csproj", "{E2DE6310-6EDE-42FC-AE92-FA848E1FC5BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoursChsarpApi.ConsoleBan", "CoursChsarpApi.ConsoleBan\CoursChsarpApi.ConsoleBan.csproj", "{5D9A02C7-DC30-4D80-A66A-B0F6DEF0A114}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoursChsarpApi.ConsoleBan", "CoursChsarpApi.ConsoleBan\CoursChsarpApi.ConsoleBan.csproj", "{5D9A02C7-DC30-4D80-A66A-B0F6DEF0A114}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoursCsharp.BanApi.Wpf", "CoursCsharp.BanApi.Wpf\CoursCsharp.BanApi.Wpf.csproj", "{DA09C809-2B89-4284-BDE0-B57B192F674B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5D9A02C7-DC30-4D80-A66A-B0F6DEF0A114}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D9A02C7-DC30-4D80-A66A-B0F6DEF0A114}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D9A02C7-DC30-4D80-A66A-B0F6DEF0A114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA09C809-2B89-4284-BDE0-B57B192F674B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA09C809-2B89-4284-BDE0-B57B192F674B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA09C809-2B89-4284-BDE0-B57B192F674B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA09C809-2B89-4284-BDE0-B57B192F674B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

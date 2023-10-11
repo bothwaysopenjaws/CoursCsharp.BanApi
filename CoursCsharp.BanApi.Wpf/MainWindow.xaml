@@ -1,0 +1,40 @@
+﻿<Window x:Class="CoursCsharp.BanApi.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoursCsharp.BanApi.Wpf"
+        mc:Ignorable="d"
+        Title="Moteur de recherche BAN" Height="450" Width="800">
+    <Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*"></ColumnDefinition>
+			<ColumnDefinition Width="8*"></ColumnDefinition>
+			<ColumnDefinition Width="*"></ColumnDefinition>
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="auto" ></RowDefinition>
+			<RowDefinition Height="auto" ></RowDefinition>
+			<RowDefinition Height="*" ></RowDefinition>
+		</Grid.RowDefinitions>
+		<TextBox 
+			Grid.Row="0" 
+			Grid.Column="1" 
+			x:Name="_SearchTextBox" 
+			KeyDown="_SearchTextBox_KeyDown"  
+			></TextBox>
+		<Button Grid.Row="1"  Grid.Column="1" x:Name="_SearchButton" Content="Lancer la recherche" Click="_SearchButton_Click" >
+		</Button>
+		<DataGrid x:Name="_AddressDataGrid" 
+							AutoGenerateColumns="False"
+		Grid.Row="2" Grid.ColumnSpan="3">
+			<DataGrid.Columns>
+				<DataGridTextColumn Header="Ville" Binding="{Binding Properties.City}"  ></DataGridTextColumn>
+				<DataGridTextColumn Header="Numéro" Binding="{Binding Properties.HouseNumber}" ></DataGridTextColumn>
+				<DataGridTextColumn Header="Code postal" Binding="{Binding Properties.PostCode}"  ></DataGridTextColumn>
+			</DataGrid.Columns>
+		</DataGrid>
+
+
+	</Grid>
+</Window>

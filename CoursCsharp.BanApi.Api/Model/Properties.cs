@@ -114,7 +114,7 @@ namespace CoursCsharp.BanApi.Api.Model
         /// <summary>
         /// Obtient ou défini le code postal
         /// </summary>
-        public string Postcode { get => _PostCode; set => _PostCode = value; }
+        public string PostCode { get => _PostCode; set => _PostCode = value; }
 
         /// <summary>
         /// Obtient ou défini le code de la ville
